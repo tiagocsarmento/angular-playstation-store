@@ -1,0 +1,14 @@
+.conteiner {
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: fit-content;
+}
+
+.conteiner > span {
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: white;
+}

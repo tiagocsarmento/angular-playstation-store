@@ -1,0 +1,46 @@
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.list > ol {
+    display: flex;
+    flex-direction: row;
+}
+
+.list > ol > li {
+    list-style-type: none;
+    margin: 10px;
+
+}
+
+.list > ol > li > a {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.conteiner > img {
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.list {
+    margin: auto 10px auto 0;
+}
+
+.list > ol > li > a:hover {
+    font-size: 1.375rem;
+}
